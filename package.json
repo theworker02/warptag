@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/warptag",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Warp structured JSON tag payloads without a heavyweight toolkit.",
+  "bin": {
+    "warptag": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/warptag.git"
+  },
+  "homepage": "https://theworker02.github.io/warptag/",
+  "keywords": [
+    "warp",
+    "tag",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
